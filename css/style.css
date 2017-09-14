@@ -1,0 +1,132 @@
+body {
+	min-height: 100vh;
+	background: url("../images/sunset.jpg");
+	font-family: "Cabin", sans-serif;
+	margin: 0;
+}
+.grad {
+  background: rgb(255, 204, 51); /* complementary color (purpleish) #9933ff*/
+  background: -webkit-linear-gradient(left top, rgba(255, 204, 51, 1), rgba(253, 94, 83,1)); 
+  background: -o-linear-gradient(bottom right, rgba(255, 204, 51, 1), rgba(253, 94, 83,1)); 
+  background: -moz-linear-gradient(bottom right, rgba(255, 204, 51, 1), rgba(253, 94, 83,1)); 
+  background: linear-gradient(to bottom right, rgba(255, 204, 51, 1), rgba(253, 94, 83,1)); 
+}
+
+header {
+	background-color: #1BAC91;
+	height: 8vh;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 8vh;
+	color: #ac1b36;
+
+}
+
+.textLeft {
+	text-align: left;
+	margin: 5px;
+}
+
+.centerBox{
+	border: 2px groove #4c1a7a;
+	clear: both;
+	height: 210px;
+	vertical-align: center;
+	padding: 10px;
+	max-width: 500px;
+	margin: 0 auto;
+	border-radius: 25px;
+}
+
+#details {
+	min-height: 200px;
+	height: 400px;
+}
+
+.imgfix {
+	border-radius: 0;
+}
+
+.thumbnail:hover {
+    position:absolute;
+    top: 45px;
+    width:600px;
+    height:auto;
+    display:block;
+}
+
+li {
+	text-align: left;
+}
+
+main {
+	height: 70vh;
+	text-align: center;
+	padding: 25px 50px;
+	padding-top: 70px;
+	border: 2px solid black;
+	background-color: rgba(130, 130, 130, .6);
+}
+
+.shadowHov:hover {
+	    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.shadow {
+	    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid black;
+	display: inline-block;
+	color: black;
+}
+
+img {
+	width: 175px;
+	float: right;
+	border-radius: 100px;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+footer {
+	background-color: #1BAC91;
+	height: 8vh;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 8vh;
+	color: #ac1b36;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border: 2px solid black;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+a {
+	text-decoration: none;
+	margin: 0 75px;
+	font-size: 24px;
+	padding: 5px 5px;
+}
+
+.foot {
+	margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
